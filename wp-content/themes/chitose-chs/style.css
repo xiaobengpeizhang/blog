@@ -1,0 +1,909 @@
+/*
+Theme Name: C.H.I.T.O.S.E. (ZH-CN)
+Theme URI: http://tsin.us/2014/04/c-h-i-t-o-s-e/
+Author: 千歲君
+Author URI: http://tsin.us
+Description: 隐藏着千岁君的秘密(误!
+Version: 1.0
+*/
+
+/* Main */
+* {
+	padding: 0;
+	margin: 0; 
+}
+body {
+	background: #F3F3F3;
+	font: 12px 'Microsoft YaHei','微软雅黑','Microsoft JhengHei','微軟正黑體','Tahoma','Verdana';
+}
+html,
+body {
+	margin: 0px;
+	height: 100%;
+} 
+input,
+textarea {
+	outline: none;
+} 
+a {
+	text-decoration: none;
+}
+::-ms-clear{
+	display:none;
+}
+::-ms-reveal{
+	display:none;
+}
+#wrapp {
+	height: 100%;
+}
+
+/* Left Navbar */
+#wrapp #navbar .tbOpen {
+	width: 17px;
+	height: 17px;
+	background: url("images/source.png") no-repeat 0 -185px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#wrapp #navbar {
+	width: 200px;
+	height: 100%;
+	background-color: #3F3F3F;
+	overflow: hidden;
+	float: left;
+	position: fixed;
+}
+#wrapp #navbar #logo {
+	width: 77px;
+	height: 82px;
+	margin: 45px 0 0 92px;
+	background: url("images/logo.png") no-repeat;
+}
+#wrapp #navbar #logo .logo {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#wrapp #navbar #menu ul.basicMenu {
+	margin: 45px 0 0 0;
+}
+#wrapp #navbar #menu ul.basicMenu a.current {
+	background: url("images/source.png") no-repeat;
+	color: #3F3F3F;
+}
+#wrapp #navbar #menu ul {
+	display: block;
+	float: right;
+	list-style: none;
+}
+#wrapp #navbar #menu ul li {
+	margin-top: 15px;
+}
+#wrapp #navbar #menu ul li a {
+	width:150px;
+	padding: 10px 0;
+	color: #F3F3F3;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+#wrapp #navbar #menu ul li a:hover {
+	background: url("images/source.png") no-repeat;
+	color: #3F3F3F; transition: all 0.1s ease 0s;
+}
+#wrapp #navbar #menu ul li.current-menu-item a {
+	background: url("images/source.png") no-repeat;
+	color: #3F3F3F;
+}
+#wrapp #navbar #menu .search-box {
+	float: right;
+}
+#wrapp #navbar #menu .search-box #s {
+	width:130px;
+	height: 23px;
+	padding: 10px;
+	background: none;
+	margin-top: 15px;
+	border: none;
+	color: #F3F3F3;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	cursor: default;
+}
+#wrapp #navbar #menu .search-box #s:hover {
+	background: url("images/source.png") transparent no-repeat;
+	color: #3F3F3F;
+}
+#wrapp #navbar #menu .search-box #searchsubmit {
+	width: 55px;
+	height:43px;
+	border: none;
+	background: #3F3F3F url("images/source.png") no-repeat 0 -60px;
+	position: fixed;
+	display: none;
+	left: 200px;
+}
+#wrapp .toolbar {
+	display: none;
+}
+#wrapp .toolbar .tbClose {
+	width: 17px;
+	height: 17px;
+	background: url("images/source.png") no-repeat -20px -185px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+#wrapp .toolbar .description {
+	color: #F3F3F3;
+	float: right;
+	margin: 20px 30px 25px 0;
+	display: block;
+	font-size: 12px;
+}
+#wrapp .toolbar #menu {
+	margin: 10px 30px 10px 0;
+	float: right;
+}
+#wrapp .toolbar #menu h2 {
+	color: #F3F3F3;
+	font-size: 14px;
+	margin: 30px 0 15px 0;
+}
+#wrapp .toolbar #menu #btn {
+	width: 120px;
+	padding: 8px 0;
+	margin: 10px 0;
+	color: #F3F3F3;
+	display: block;
+	text-align: center;
+	border: 1px solid #F3F3F3;
+}
+#wrapp .toolbar #menu #btn:hover {
+	opacity: 0.7;
+}
+#wrapp .toolbar #menu #btn:active {
+	opacity: 0.9;
+}
+#wrapp .toolbar #menu .rss {
+	background: #F28500;
+}
+#wrapp .toolbar #menu .facebook {
+	background: #3C5A9A;
+}
+#wrapp .toolbar #menu .twitter {
+	background: #349AEC;
+}
+#wrapp .toolbar #menu .gplus {
+	background: #D54433;
+}
+#wrapp .toolbar #menu .sinaweibo {
+	background: #EB182C;
+}
+
+/* Content */
+#wrapp #content {
+	height: 100%;
+	margin: 0 0 0 200px;
+}
+
+/* Banner */
+#wrapp #content  #banner {
+	width:100%;
+	height: 100px;
+	background: url("images/banner.jpg") center center;
+	overflow: hidden;
+}
+#wrapp #content  #banner .close {
+	display: block;
+	text-align: center;
+	top: -10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+#wrapp #content  #banner .close a {
+	width: 30px;
+	height: 28px;
+	background: url("images/source.png") no-repeat 0px -208px;
+	display: block;
+}
+#wrapp #content  #banner .close a:hover {
+	background-position: -37px -208px;
+}
+#wrapp #content  #banner-wrapp {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
+#wrapp #content  #banner-wrapp ul {
+	width: 750px;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+#wrapp #content  #banner-wrapp ul li {
+	height: 100%;
+	display: block;
+	float: left;
+}
+#wrapp #content  #banner-wrapp ul li a {
+	width: 250px;
+	height: 84px;
+	color: #FFF;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px 0;
+}
+#wrapp #content  #banner-wrapp ul li a:hover {
+	background: rgba(255,255,255,0.3);
+	color: #FFF;
+	transition: all 1s ease 0s;
+}
+#wrapp #content  #banner-wrapp ul li a span {
+	display: block;
+}
+#wrapp #content  #banner-wrapp ul li a span.title {
+	margin-top: 22px;
+}
+
+/* Post */
+#wrapp #content .post,
+#wrapp #content .page  {
+	width: 720px;
+	margin: 40px 0 25px 50px;
+	color: #747474;
+}
+#wrapp #content .post .datetime,
+#wrapp #content .page .datetime {
+	margin: 0 0 4px 35px;
+	display: block;
+}
+#wrapp #content .post #post-entry,
+#wrapp #content .page #post-entry {
+	background-color: #F9F9F9;
+	border: 1px solid #D6D6D6;
+	padding: 0 25px 15px 20px;
+}
+#wrapp #content .post #post-entry .avatar,
+#wrapp #content .page #post-entry .avatar {
+	border-radius: 5px;
+	border: 1px solid #BABABA;
+	margin: -25px 0 0 -40px;
+}
+#wrapp #content .post #post-entry #wrapp,
+#wrapp #content .page #post-entry #wrapp {
+	max-width:625px;
+	margin: 0 0 0 25px;
+	line-height: 2em;
+}
+#wrapp #content .post #post-entry #wrapp p,
+#wrapp #content .page #post-entry #wrapp p {
+	margin-bottom: 8px;
+}
+#wrapp #content .post #post-entry #wrapp img,
+#wrapp #content .page #post-entry #wrapp img {
+	max-width: 360px;
+	margin: 0 5px 10px 0;
+	border: 4px dashed #DDD;
+	display: block;
+}
+#wrapp #content .post #post-entry #wrapp li,
+#wrapp #content .page #post-entry #wrapp li {
+	list-style: square inside url('images/eg_arrow.gif');
+}
+#wrapp #content .post #post-entry #wrapp blockquote,
+#wrapp #content .page #post-entry #wrapp blockquote {
+	width: 80%;
+	border: 1px dashed #D6D6D6;
+	padding: 8px 15px 0 15px;
+	background-color: #F7F7F7;
+	margin: 15px 0;
+}
+#wrapp #content .post #post-entry #wrapp .content-wrapp,
+#wrapp #content .page #post-entry #wrapp .content-wrapp {
+	clear: left;
+	line-height: 2.1em;
+}
+#wrapp #content .post #post-entry #wrapp .content-wrapp a,
+#wrapp #content .page #post-entry #wrapp .content-wrapp a {
+	color: #747474;
+	font-weight: bold;
+}
+#wrapp #content .post #post-entry #wrapp .content-wrapp a:hover,
+#wrapp #content .page #post-entry #wrapp .content-wrapp a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+#wrapp #content .post #post-entry #wrapp .content-wrapp h1,
+#wrapp #content .page #post-entry #wrapp .content-wrapp h1,
+#wrapp #content .post #post-entry #wrapp .content-wrapp h2,
+#wrapp #content .page #post-entry #wrapp .content-wrapp h2,
+#wrapp #content .post #post-entry #wrapp .content-wrapp h3,
+#wrapp #content .page #post-entry #wrapp .content-wrapp h3,
+#wrapp #content .post #post-entry #wrapp .content-wrapp h4,
+#wrapp #content .page #post-entry #wrapp .content-wrapp h4,
+#wrapp #content .post #post-entry #wrapp .content-wrapp h5,
+#wrapp #content .page #post-entry #wrapp .content-wrapp h5,
+#wrapp #content .post #post-entry #wrapp .content-wrapp h6,
+#wrapp #content .page #post-entry #wrapp .content-wrapp h6 {
+	margin: 5px 0 10px 0;
+	border-bottom: 1px dashed #D6D6D6;
+	padding: 5px 0;
+}
+#wrapp #content .post #information,
+#wrapp #content .page #information {
+	background: #F3F3F3;
+	border: 1px solid #D6D6D6;
+	border-top: none;
+	padding: 10px 25px 10px 20px;
+	overflow: auto;
+	font-size: 14px;
+	font-weight: bold;
+}
+#wrapp #content .post #information .tags,
+#wrapp #content .page #information .tags {
+	float: left;
+	margin-right: 4px;
+	width: 15px;
+	height: 17px;
+	background: url("images/source.png") 0 -150px no-repeat;
+	display: block;
+}
+#wrapp #content .post #information .title,
+#wrapp #content .page #information .title {
+	float: left;
+}
+#wrapp #content .post #information .title a,
+#wrapp #content .page #information .title a {
+	max-width: 600px;
+	color: #747474;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+	white-space: nowrap;
+	word-break: keep-all;
+}
+#wrapp #content .post #information .title a:hover,
+#wrapp #content .page #information .title a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+#wrapp #content .post #information .tag-wrapp {
+	width: 100%;
+	position: fixed;
+	display: none;
+	background: #FFF;
+	padding: 10px 15px;
+	border-top: 1px solid #D6D6D6;
+	bottom: 0px;
+	left: 200px;
+}
+#wrapp #content .post #information .tag-wrapp a {
+	margin: 0 5px 0 2px;
+	display: block;
+	float: left;
+	color: #747474;
+}
+#wrapp #content .post #information .tag-wrapp ul {
+	list-style: none;
+}
+#wrapp #content .post #information .tag-wrapp ul li {
+	float: left;
+	display: block;
+	margin: 0 5px;
+}
+#wrapp #content .post #information .tag-links a,
+#wrapp #content .page #information .tag-links a {
+	color: #747474;
+}
+#wrapp #content .post #information .tag-links a:hover,
+#wrapp #content .page #information .tag-links a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+#wrapp #content .post #information .right,
+#wrapp #content .page #information .right {
+	float: right;
+}
+#wrapp #content .post #information .right a,
+#wrapp #content .page #information .right a {
+	color: #747474;
+	background: url("images/source.png") -40px -150px no-repeat;
+	padding-left: 25px;
+}
+#wrapp #content .post #information .right a:hover,
+#wrapp #content .page #information .right a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+#wrapp #content .post #title, #wrapp #content .page #title {
+	font-weight: bold;
+}
+#wrapp #content .post #title .title,
+#wrapp #content .page #title .title {
+	font-size: 18px;
+	margin-top: -5px;
+	display: block;
+}
+#wrapp #content .post #title #info,
+#wrapp #content .page #title #info {
+	margin: 5px 0 20px 0;
+	overflow: auto;
+}
+#wrapp #content .post #title #info span,
+#wrapp #content .page #title #info span {
+	margin-right: 15px;
+	padding-left: 15px;
+	float: left;
+}
+#wrapp #content .post #title #info a,
+#wrapp #content .page #title #info a {
+	color: #747474;
+	display: block;
+	float: left;
+}
+#wrapp #content .post #title #info li,
+#wrapp #content .page #title #info li {
+	list-style: none;
+}
+#wrapp #content .post #title #info .author,
+#wrapp #content .page #title #info .author {
+	background: url("images/source.png") 0px -250px no-repeat;
+}
+#wrapp #content .post #title #info .author:hover,
+#wrapp #content .page #title #info .author:hover {
+	background-position: -140px -250px;
+	color: #53A93F;
+}
+#wrapp #content .post #title #info .date,
+#wrapp #content .page #title #info .date {
+	background: url("images/source.png") 0px -280px no-repeat;
+}
+#wrapp #content .post #title #info .date:hover,
+#wrapp #content .page #title #info .date:hover {
+	background-position: -140px -280px;
+	color: #53A93F;
+}
+#wrapp #content .post #title #info .category,
+#wrapp #content .page #title #info .category {
+	background: url("images/source.png") 0px -310px no-repeat;
+}
+#wrapp #content .post #title #info .category:hover,
+#wrapp #content .page #title #info .category:hover {
+	background-position: -140px -310px;
+}
+#wrapp #content .post #title #info .category a:hover,
+#wrapp #content .page #title #info .category a:hover {
+	color: #53A93F;
+}
+#wrapp #content .post #title #info ul,
+#wrapp #content .page #title #info ul {
+	list-style: none;
+}
+#wrapp #content .post #title #info ul li,
+#wrapp #content .page #title #info ul li {
+	margin-right: 10px;
+}
+
+/* Comment */
+#wrapp #content #comment {
+	width: 720px;
+	margin: 20px 0px 20px 50px;
+	overflow: hidden;
+}
+#wrapp #content #comment  #comments-list ol {
+	list-style: none;
+	clear: left;
+}
+#wrapp #content #comment #comments-list {
+	width: 460px;
+	float: left;
+}
+#wrapp #content #comment #comments-list #comments-only {
+	width: 100%;
+	clear: left;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+#wrapp #content #comment #comments-list #comments-only a {
+	color: #4A4A4A;
+	clear: left;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-left {
+	float: left;
+	clear: left;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-left img {
+	border: 1px solid #D6D6D6;
+	border-radius: 4px;
+	clear: left;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right {
+	width: 360px;
+	padding: 8px 20px 12px 20px;
+	background: #FFF;
+	border: 1px solid #D6D6D6;
+	color: #4A4A4A;
+	float: right;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right .dot {
+	width: 8px;
+	height: 12px;
+	margin-left: -28px;
+	background: url("images/source.png") 0px -360px no-repeat;
+	display: block;
+	position: absolute;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right #comments-vcard {
+	width: 100%;
+	overflow: auto;
+	display: block;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right #comments-vcard .left {
+	float: left;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right #comments-vcard .right {
+	float: right;
+}
+
+#wrapp #content #comment #comments-list #comments-only #comments-right #comments-vcard .right .reply {
+	display: none;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right:hover > #comments-vcard .right .reply {
+	display: block;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right:hover > #comments-vcard .right .date {
+	display: none;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right .comment-post-wrapp {
+	margin-top: 8px;
+	clear: left;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right a {
+	font-weight: bold;
+}
+#wrapp #content #comment #comments-list #comments-only #comments-right a:hover {
+	opacity: 0.8;
+	text-decoration: underline;
+}
+#wrapp #content #comment #comments-list .children {
+	clear: right;
+}
+#wrapp #content #comment #comments-list .children #comments-only #comments-left {
+	float: right;
+	clear: right;
+	margin-bottom: 0px;
+}
+#wrapp #content #comment #comments-list .children #comments-only #comments-right {
+	width: 302px;
+	float: left;
+	margin: 0 0 0 58px;
+}
+#wrapp #content #comment #comments-list .children #comments-only #comments-right .dot {
+	width: 8px;
+	height: 12px;
+	background: url("images/source.png") -11px -360px no-repeat;
+	display: block;
+	position: absolute;
+	margin-left: 322px;
+}
+#wrapp #content #comment #comments-list .children #comments-only #comments-right #comments-vcard .left {
+	float: right;
+}
+#wrapp #content #comment #comments-list .children #comments-only #comments-right #comments-vcard .right {
+	float: left;
+}
+
+/* Comment From */
+#wrapp #content #respond-frame  {
+	width: 240px;
+	background-color: #F3F3F3;
+	border: 1px solid #D6D6D6;
+	float: right;
+}
+#wrapp #content #respond-frame #respond {
+	background-color: #FFF;
+	overflow: auto;
+	padding: 5px 8px;
+	border-bottom: 1px solid #D6D6D6;
+}
+#wrapp #content #respond-frame #respond #black-wrapp {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	z-index: 9999;
+	display: none;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login  {
+	width: 400px;
+	position: fixed;
+	background-color: #FFF;
+	border: 1px solid #D6D6D6;
+	z-index: 9999;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .title {
+	width: 360px;
+	color: #747474;
+	padding: 15px 20px;
+	background-color: #F7F7F7;
+	border-bottom: 1px solid #D6D6D6;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .title .close {
+	width: 16px;
+	height: 16px;
+	float: right;
+	background: url("images/source.png") -34px -360px no-repeat;
+	display: block;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .title .close:hover {
+	background-position: -34px -378px;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login input {
+	width: 100%;
+	height: 20px;
+	border: none;
+	color: #747474;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login p {
+	width: 180px;
+	margin-bottom: 5px;
+	border: 1px solid #D6D6D6;
+	padding: 2px 10px 2px 35px;
+	margin: 10px auto 15px auto;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .comment-form-author {
+	background: url("images/source.png") -66px -360px no-repeat;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .comment-form-email {
+	background: url("images/source.png") -66px -389px no-repeat;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .comment-form-url {
+	background: url("images/source.png") -66px -425px no-repeat;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .submit {
+	width: 228px;
+	height: 30px;
+	background: none;
+	border: 1px solid #D6D6D6;
+	margin: 0 auto 15px auto;
+	display: block;
+}
+#wrapp #content #respond-frame #respond #black-wrapp .login .submit:hover {
+	background-color: #747474;
+	color: #FFF;
+}
+#wrapp #content #respond-frame #respond  .comment-form-comment {
+	margin-bottom: 10px;
+}
+#wrapp #content #respond-frame #respond  .comment-form-comment label{
+	display: none;
+}
+#wrapp #content #respond-frame #respond  .comment-form-comment textarea#comment {
+	width: 100%;
+	height: 60px;
+	color: #747474;
+	font-size: 12px;
+	margin: 0;
+	border: none;
+	resize: none;
+}
+#wrapp #content #respond-frame #respond  .comment-form-comment textarea#comment:disabled {
+	background: #FFF;
+}
+#wrapp #content #respond-frame #respond  .form-submit input#submit {
+	width: 20px;
+	height: 15px;
+	border: none;
+	background: url("images/source.png") -140px -186px no-repeat;
+	float: right;
+	opacity: 0.6;
+}
+#wrapp #content #respond-frame #respond  .form-submit input#submit:hover {
+	opacity: 1;
+}
+#wrapp #content #respond-frame #respond  .logged-in-as {
+	display: none;
+	color: #747474;
+	padding: 4px 0;
+	margin-bottom: 5px;
+}
+#wrapp #content #respond-frame #respond  .logged-in-as a {
+	color: #3F3F3F;
+	font-weight: bold;
+	margin: 0 5px;
+}
+#wrapp #content #respond-frame #respond  .comment-reply-title {
+	font-size: 12px;
+	color: #747474;
+	border-bottom: 1px dashed #D6D6D6;
+	padding: 4px 0;
+	margin-bottom: 5px;
+}
+#wrapp #content #respond-frame #respond  .comment-reply-title a {
+	color: #3F3F3F;
+	font-weight: bold;
+	margin: 0 5px;
+	font-size: 12px;
+}
+#wrapp #content #respond-frame #control {
+	margin: 15px 0 0 10px;
+	overflow: auto;
+}
+#wrapp #content #respond-frame #control a {
+	opacity: 0.7;
+}
+#wrapp #content #respond-frame #control a:hover {
+	opacity: 1;
+}
+#wrapp #content #respond-frame #control a:active {
+	opacity: 0.9;
+}
+#wrapp #content #respond-frame #control .control-text {
+	background: url("images/source.png") -80px -68px no-repeat;
+}
+#wrapp #content #respond-frame #control .control-pic {
+	background: url("images/source.png") -116px -68px no-repeat;
+}
+#wrapp #content #respond-frame #control .control-link {
+	background: url("images/source.png") -145px -68px no-repeat;
+}
+#wrapp #content #respond-frame #control #control-f {
+	width: 28px;
+	height: 50px;
+	margin: 0 10px 0 8px;
+	float: left;
+	z-index: -9999;
+	display: block;
+}
+#wrapp #content #respond-frame #control #control-f .label {
+	margin-top: 25px;
+	color: #9A9999;
+	display: block;
+}
+#wrapp #content #respond-frame #control #control-f .text {
+	font-weight: bold;
+	color: #000;
+}
+#wrapp #content #respond-frame #control .dot {
+	width: 10px;
+	height: 10px;
+	display: block;
+	background: url("images/source.png") 0px -380px no-repeat;
+	position: absolute;
+	margin: -16px 0 0 15px;
+}
+#wrapp #content #respond-frame #control .author {
+	width: 35px;
+	height: 35px;
+	margin-right: 18px;
+	overflow: hidden;
+	float: right;
+	border: 1px solid #D6D6D6;
+	border-radius: 20px;
+	opacity: 0.6;
+}
+#wrapp #content #respond-frame #control .author:hover {
+	opacity: 1;
+}
+#wrapp #content #respond-frame #control .author:active {
+	opacity: 0.8;
+}
+#wrapp #content #respond-frame #control .notice {
+	position: absolute;
+	margin: -75px 0 0 -85px;
+	color: #747474;
+}
+#wrapp #content #respond-frame #control .notice a {
+	color: #53A93F;
+	text-decoration: underline;
+}
+
+/* Footer */
+#wrapp #content #footer {
+	width: 718px;
+	background: #F9F9F9;
+	color: #3F3F3F;
+	margin: 0 0 20px 50px;
+	border: 1px solid #D6D6D6;
+	overflow: hidden;
+	clear: left;
+}
+#wrapp #content #footer #pager {
+	float: left;
+}
+#wrapp #content #footer #pager a {
+	height: 100%;
+	color: #3F3F3F;
+	display: block;
+	float: left;
+	padding: 10px 18px;
+}
+#wrapp #content #footer #pager a:hover {
+	background: #3F3F3F;
+	color: #F3F3F3;
+}
+#wrapp #content #footer #pager a.current
+{
+	background: #3F3F3F;
+	color: #F3F3F3;
+}
+#wrapp #content #footer #copyright {
+	float: right;
+}
+#wrapp #content #footer #copyright .info {
+	padding: 10px 0;
+	display: block;
+	float: left;
+}
+#wrapp #content #footer #copyright .logo {
+	background: url("images/source.png") 0px -455px no-repeat #3F3F3F;
+	color: #F3F3F3;
+	width: 40px;
+	height: 37px;
+	display: block;
+	float: left;
+	margin-left: 10px;
+}
+#wrapp #content #footer #copyright .logo:hover {
+	background-color: #666;
+}
+
+/* Links */
+#wrapp #content .links #post-entry #wrapp ul {
+	overflow: auto;
+}
+#wrapp #content .links #post-entry #wrapp ul li {
+	width: 250px;
+	margin: 2px 5px 2px 0;
+	float: left;
+	border: 1px solid #F9F9F9;
+	padding: 7px 9px;
+	list-style: none;
+}
+#wrapp #content .links #post-entry #wrapp ul li:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+	border-color: #ACACAC;
+}
+#wrapp #content .links #post-entry #wrapp ul li:hover > img {
+	opacity: 0.6;
+	transition: all 0.4s ease 0s;
+}
+#wrapp #content .links #post-entry #wrapp ul li a {
+	margin-top: -5px;
+	display: block;
+}
+#wrapp #content .links #post-entry #wrapp ul li p {
+	width: 200px;
+	margin: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#wrapp #content .links #post-entry #wrapp ul img {
+	width: 40px;
+	margin-right: 10px;
+	float: left;
+	border: none;
+}

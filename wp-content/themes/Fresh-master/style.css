@@ -1,0 +1,259 @@
+@charset "utf-8";
+/*
+Theme Name: Fresh
+Theme URI: http://zhangshiyie.com
+Author:  ShiYi
+Author URI: http://zhangshiyie.com/
+Description: Fresh主题是一款简洁、清新、文艺范十足的单栏博客主题。响应式布局，通过特色图像来实现文章页面顶部图像自定义。Use it to make something cool, have fun, and share what you've learned with others.
+Version: 1.0
+*/
+
+* {
+    box-sizing: border-box;
+}
+*:before, *:after {
+    box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after, .row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after, .row:after {
+    clear: both;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+html, body {
+    overflow-x: hidden;
+}
+body,h1,h2,h3,h4,h5,h6,blockquote,p{
+	margin:0;
+	padding:0;
+}
+h1,.h1,h2,.h2,h3,.h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+img{ 
+	height: auto;
+	max-width: 100%; 
+	display: block;
+	padding-top:10px;
+	padding-bottom:10px
+}
+body {
+    color: #333;
+    font-family: Arial,Helvetica,Georgia,Sans-seriff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+    vertical-align: top;
+}
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+@media (min-width: 768px) {
+.container{
+    width: 750px;
+}
+}
+@media (min-width: 992px) {
+.container{
+    width: 970px;
+}
+}
+@media (min-width: 1200px) {
+.container{
+    width: 1170px;
+}
+}
+.ctl{
+	 margin-left: -15px;
+    margin-right: -15px;
+	min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+	 position: relative;
+}
+@media (min-width: 1200px) {
+.ctl{
+    float: left;
+    width: 66.66666667%;
+}
+.ctl1{
+	    margin-left: 16.66666667%;
+}
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:#333;
+}
+a:hover{
+	text-decoration:underline;
+	color:#428bca;
+}
+h1{
+	font-family:Georgia, Sans-serif;
+	font-size:36px;
+	color:inherit
+}
+h2{
+	font-family:Georgia, Sans-serif;
+	font-size:30px;
+}
+h3{
+    font-size: 24px
+}
+
+h4{
+    font-size: 18px
+}
+
+h5{
+    font-size: 14px
+}
+
+h6{
+    font-size: 12px
+}
+
+
+p{
+	padding:10px 0 0 0;
+}
+header {
+    background-color: #444;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 -90px 120px rgba(0, 0, 0, 0.2) inset;
+    height: 350px;
+    margin-bottom: 1px;
+    position: relative;
+	background-image:url(images/header.jpg)
+}
+
+.title{
+	float:left;
+	padding-top:220px;
+	padding-bottom:12px;
+	color:#FFF;
+}
+header .title h1 a{
+	font-weight: bold;
+	color: #FFF;
+	text-shadow:5px 5px 5px #000
+}
+#description {
+	font-size:14px;
+	color:FFF
+}
+#back a{
+	font-size:14px;
+	color:#FFF
+}
+footer{
+	float:left;
+	width:100%;
+    color: #999;
+    font-size: 12px;
+	padding:80px 0 40px 0;
+	text-align: right;
+}
+.post{
+	padding-top:20px
+}
+.post h3{
+	font-family:Georgia,Sans-serif;
+	font-size:30px;
+}
+.bdsharebuttonbox{
+	padding-top:30px;
+	padding-bottom:10px
+}
+.comments-template{
+
+	margin: 10px 0 0;
+
+
+	padding: 0px 0 0;
+
+}
+
+
+
+.comments-template ol{
+
+	margin: 0;
+
+	padding: 0 0 15px;
+
+	list-style: none;
+
+}
+
+
+
+.comments-template ol li{
+
+	margin: 10px 0 0;
+
+	line-height: 18px;
+
+	padding: 10 0 10px;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+
+.comments-template h2, .comments-template h3{
+
+	font-family: Georgia, Sans-serif;
+
+	font-size: 16px;
+
+}
+
+
+
+.commentmetadata{
+
+	font-size: 12px;
+
+}
+
+
+
+.comments-template p.nocomments{
+
+	padding: 0;
+
+}
+
+
+
+.comments-template textarea{
+
+	font-family: Arial, Helvetica, Georgia, Sans-serif;
+
+	font-size: 12px;
+
+}
+blockquote {
+	margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding: 0 15px;
+    color: #777;
+    border-left: 4px solid #ddd
+}
+.more-link{
+	display:none
+}
